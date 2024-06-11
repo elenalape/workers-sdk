@@ -85,6 +85,7 @@ function createWorkerBundleFormData(
 		usage_model: undefined,
 		keepVars: undefined,
 		keepSecrets: undefined,
+		keepBindings: undefined,
 		logpush: undefined,
 		sourceMaps: undefined,
 		placement: placement,
