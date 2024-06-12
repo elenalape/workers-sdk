@@ -27,7 +27,7 @@ export const detectPackageManager = () => {
 		version = process.env.TEST_PM_VERSION;
 		process.env.npm_config_user_agent = name;
 	}
-
+	//
 	switch (name) {
 		case "pnpm":
 			if (semver.gt(version, "6.0.0")) {
