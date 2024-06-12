@@ -1,5 +1,13 @@
 # @cloudflare/vitest-pool-workers
 
+## 0.4.5
+
+### Patch Changes
+
+- [#6007](https://github.com/cloudflare/workers-sdk/pull/6007) [`335e6e7`](https://github.com/cloudflare/workers-sdk/commit/335e6e760637a9ce184093ee6a1b5934d796d67e) Thanks [@Skye-31](https://github.com/Skye-31)! - fix: improve `runInDurableObject` type
+
+  [#5975](https://github.com/cloudflare/workers-sdk/pull/5975) updated the type for `runInDurableObject` to infer the stub's type correctly for RPC methods, however it used the wrong `DurableObjects` type. This PR fixes the type used to properly support RPC methods.
+
 ## 0.4.4
 
 ### Patch Changes
